@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Display Property Example</title>
+<style>
+    /* Block-level elements */
+    .block {
+        display: block;
+        width: 200px;
+        height: 50px;
+        background-color: lightblue;
+        margin-bottom: 10px;
+    }
+
+    /* Inline-level elements */
+    .inline {
+        display: inline;
+        background-color: lightgreen;
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    /* Inline-block elements */
+    .inline-block {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: lightcoral;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    /* Flex container */
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    /* Grid container */
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+
+    /* Table container */
+    .table-container {
+        display: table;
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    /* Table row */
+    .table-row {
+        display: table-row;
+    }
+
+    /* Table cell */
+    .table-cell {
+        display: table-cell;
+        border: 1px solid #ccc;
+        padding: 8px;
+    }
+
+    /* Hidden element */
+    .hidden {
+        display: none;
+    }
+</style>
+</head>
+<body>
+
+<h2>Examples of CSS Display Property</h2>
+
+<!-- Block-level elements -->
+<div class="block">Block Element</div>
+
+<!-- Inline-level elements -->
+<span class="inline">Inline Element 1</span>
+<span class="inline">Inline Element 2</span>
+<span class="inline">Inline Element 3</span>
+
+<!-- Inline-block elements -->
+<div class="inline-block">Inline-Block Element 1</div>
+<div class="inline-block">Inline-Block Element 2</div>
+<div class="inline-block">Inline-Block Element 3</div>
+
+<!-- Flex container -->
+<div class="flex-container">
+    <div style="background-color: lightgoldenrodyellow;">Flex Item 1</div>
+    <div style="background-color: lightpink;">Flex Item 2</div>
+    <div style="background-color: lightskyblue;">Flex Item 3</div>
+</div>
+
+<!-- Grid container -->
+<div class="grid-container">
+    <div style="background-color: lightseagreen;">Grid Item 1</div>
+    <div style="background-color: lightcoral;">Grid Item 2</div>
+    <div style="background-color: lightsalmon;">Grid Item 3</div>
+    <div style="background-color: lightblue;">Grid Item 4</div>
+    <div style="background-color: lightgreen;">Grid Item 5</div>
+    <div style="background-color: lightyellow;">Grid Item 6</div>
+</div>
+
+<!-- Table container -->
+<div class="table-container">
+    <div class="table-row">
+        <div class="table-cell">Table Cell 1</div>
+        <div class="table-cell">Table Cell 2</div>
+        <div class="table-cell">Table Cell 3</div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">Table Cell 4</div>
+        <div class="table-cell">Table Cell 5</div>
+        <div class="table-cell">Table Cell 6</div>
+    </div>
+</div>
+
+<!-- Hidden element -->
+<div class="hidden">This element is hidden.</div>
+
+</body>
+</html>
