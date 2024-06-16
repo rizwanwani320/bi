@@ -1,0 +1,27 @@
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.float-left {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.float-right {
+    float: right;
+    width: 50%;
+    padding: 20px;
+    background-color: #e0e0e0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
