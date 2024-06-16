@@ -1,0 +1,14 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px;
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.box:hover {
+    transform: rotate(180deg) scale(1.2);
+}
