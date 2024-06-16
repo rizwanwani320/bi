@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Filters Example</title>
+<style>
+    .image {
+        width: 300px;
+        filter: grayscale(50%) contrast(120%);
+        transition: filter 0.3s ease; /* Add transition for smooth effect */
+    }
+
+    .image:hover {
+        filter: none; /* Remove filters on hover */
+    }
+</style>
+</head>
+<body>
+
+<img class="image" src="example.jpg" alt="Example Image">
+
+</body>
+</html>
