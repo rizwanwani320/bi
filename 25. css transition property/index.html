@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Transition Example</title>
+<style>
+    .btn {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease, transform 0.3s ease; /* Apply transition to background-color and transform */
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+        transform: scale(1.1); /* Scale the button slightly on hover */
+    }
+</style>
+</head>
+<body>
+
+<button class="btn">Hover me</button>
+
+</body>
+</html>
