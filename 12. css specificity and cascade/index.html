@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity and Cascade Example</title>
+    <style>
+        /* CSS rule 1 */
+        p {
+            color: blue; /* Rule 1: Applies blue color to all <p> elements */
+        }
+
+        /* CSS rule 2 */
+        .special {
+            color: red; /* Rule 2: Applies red color to elements with class="special" */
+        }
+
+        /* CSS rule 3 */
+        #specialParagraph {
+            color: green; /* Rule 3: Applies green color to element with id="specialParagraph" */
+        }
+
+        /* CSS rule 4 */
+        p {
+            font-size: 18px; /* Rule 4: Applies font size to all <p> elements */
+        }
+
+        /* CSS rule 5 */
+        .special {
+            font-weight: bold; /* Rule 5: Applies font weight to elements with class="special" */
+        }
+    </style>
+</head>
+<body>
+    <p>This paragraph demonstrates CSS specificity and cascade.</p>
+    <p class="special">This paragraph has class="special".</p>
+    <p id="specialParagraph">This paragraph has id="specialParagraph".</p>
+</body>
+</html>
