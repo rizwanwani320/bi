@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Animation Example</title>
+<style>
+    @keyframes slide-in {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: #007bff;
+        color: white;
+        text-align: center;
+        line-height: 100px;
+        margin: 20px;
+        animation: slide-in 1s ease-out; /* Apply animation */
+    }
+</style>
+</head>
+<body>
+
+<div class="box">Animated Box</div>
+
+</body>
+</html>
